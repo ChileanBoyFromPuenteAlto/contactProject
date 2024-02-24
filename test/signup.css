@@ -54,6 +54,10 @@ p {
   color: var(---second-color);
 }
 
+label {
+  color: var(---second-color);
+}
+
 .items {
   width: 100%;
   padding: 12px;

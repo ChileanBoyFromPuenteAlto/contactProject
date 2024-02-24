@@ -49,6 +49,10 @@ body {
   color: var(---second-color);
 }
 
+.content label {
+  color: var(---second-color);
+}
+
 .items {
   width: 100%;
   padding: 10px;
