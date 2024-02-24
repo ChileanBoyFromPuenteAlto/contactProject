@@ -8,22 +8,52 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0"
     />
+    <link rel="stylesheet" href="signup.css" />
   </head>
   <body>
-    <div class="main">
+    <div class="form">
       <div class="logo">
         <a href="index.html"
           ><span class="material-symbols-outlined"> contacts </span></a
         >
       </div>
-      <h1>Welcome!</h1>
-      <p>I need some information from you first. . .</p>
-      <input type="text" placeholder="What's your name" />
-      <input type="email" placeholder="Enter your email" />
-      <input type="text" placeholder="Re-enter the email" />
-      <input type="password" placeholder="Enter your password" />
-      <input type="text" placeholder="Re-enter the password" />
-      <input type="submit" value="Enter" />
+      <div class="content">
+        <h1>Welcome!</h1>
+        <p>I need some information from you first. . .</p>
+        <input
+          type="text"
+          id="name"
+          placeholder="What's your name"
+          class="items"
+        />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          class="items"
+        />
+        <input
+          type="text"
+          id="re-email"
+          placeholder="Re-enter the email"
+          class="items"
+        />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          class="items"
+        />
+        <input
+          type="text"
+          id="re-password"
+          placeholder="Re-enter the password"
+          class="items"
+        />
+        <input type="submit" value="SignUp" onclick="" class="button" />
+      </div>
     </div>
+
+    <script src="signup.js"></script>
   </body>
 </html>
