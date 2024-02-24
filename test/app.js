@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 3000;
 const path = require("path");
 const dotenv = require("dotenv");
 dotenv.config({ path: "./.env" });
@@ -13,6 +12,6 @@ app.get("/", (req, res) => {
 
 app.use(express.static("test"));
 
-app.listen(port, () => {
+app.listen(3000, () => {
   console.log("The app is listen on http://localhost:3000");
 });

@@ -12,5 +12,3 @@ const user = {
   password: document.getElementById("password"),
   repassword: document.getElementById("re-password"),
 };
-
-export default user;
